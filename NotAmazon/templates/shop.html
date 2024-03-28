@@ -1,18 +1,21 @@
-{%include "base.html"%} 
+{% include "base.html" % } 
 
 <body>
     <div id="content", name="content">
-        {%block content%}
-            <ul>
+        {% block content %}
+        <form method="GET" action="{% url "products"%}"
+            {% csrf_token %}
+            <table>
                 {% for item in item_list %}
-                    <li>Item name: {{item.item_name}}</li>
-                    <li>Item description: {{item.item_description}}</li>
-                    <li>Item price: {{item.item_price}}</li>
-                    <li>Item rating: {{item.item_rating}}</li>
-                    <li>Item review: {{item.item_reviews}}</li>
+                    <input type="submit" action="{% url "products"%}"><tr>Item name: {{item.item_name}}</tr>
+                    <tr>Item description: {{item.item_description}}</tr>
+                    <tr>Item price: {{item.item_price}}</tr>
+                    <tr>Item rating: {{item.item_rating}}</tr>
+                    <tr>Item review: {{item.item_reviews}}</tr>
                     <br>
                 {% endfor %}
-            </ul>
-        {%endblock%}
+            </table>
+        </form>
+        {% endblock %}
     </div>
 </body>

@@ -1,0 +1,69 @@
+Joey's Asynchronous Network Scanner.
+Network: 10.172.104.0/24
+Total Devices: 12
+
+IP Address:	10.172.104.12
+Hostname:	lowm-07227-in01.wiregrass.edu
+	Port: 80
+	Port: 135
+	Port: 139
+	Port: 445
+IP Address:	10.172.104.2
+Hostname:	lowm-01132-in01.wiregrass.edu
+	Port: 22
+IP Address:	10.172.104.4
+Hostname:	lowm-03170-in01.wiregrass.edu
+	Port: 22
+	Port: 23
+	Port: 161
+IP Address:	10.172.104.1
+Hostname:	lowm-07227-in01.wiregrass.edu
+	Port: 22
+IP Address:	10.172.104.20
+Hostname:	lowm-01132-in01.wiregrass.edu
+	Port: 80
+	Port: 135
+	Port: 139
+	Port: 445
+IP Address:	10.172.104.21
+Hostname:	lowm-03146-in01.wiregrass.edu
+	Port: 80
+	Port: 135
+	Port: 139
+	Port: 445
+IP Address:	10.172.104.39
+Hostname:	lowm-04118-in01.wiregrass.edu
+	Port: 80
+	Port: 135
+	Port: 139
+	Port: 445
+IP Address:	10.172.104.44
+Hostname:	lowm-mu5-in01.wiregrass.edu
+	Port: 80
+	Port: 135
+	Port: 139
+	Port: 445
+IP Address:	10.172.104.46
+Hostname:	lowm-04112-in01.wiregrass.edu
+	Port: 80
+	Port: 135
+	Port: 139
+	Port: 445
+IP Address:	10.172.104.45
+Hostname:	lowm-03170-in01.wiregrass.edu
+	Port: 80
+	Port: 135
+	Port: 139
+	Port: 445
+IP Address:	10.172.104.82
+Hostname:	lowm-07268-in01.wiregrass.edu
+	Port: 80
+	Port: 135
+	Port: 139
+	Port: 445
+IP Address:	10.172.104.91
+Hostname:	lowm-07217-in01.wiregrass.edu
+	Port: 80
+	Port: 135
+	Port: 139
+	Port: 445
